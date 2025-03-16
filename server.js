@@ -6,7 +6,7 @@ const cors = require('cors'); // Импортируем пакет cors
 const crawl = require('./crawler');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 7777;
 
 app.use(cors()); // Разрешаем CORS для всех маршрутов
 app.use(express.json());
